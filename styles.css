@@ -1,0 +1,75 @@
+:root{
+    --primary-color: #e50914;
+    --dark-color: #141414;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.showcase .topnav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.showcase-top img{
+    width: 170;
+    position: absolute;
+    top: 7.5%;
+    left: 7%;
+    transform: translate(-50%, -100%);
+}
+.showcase-content h1 {
+  font-weight: 700;
+  font-size: 5.2rem;
+  line-height: 1.1;
+  margin: 0 0 2rem;
+}
+li {
+    display: inline;
+  }
+  li {
+    float: left;
+  }
+  
+  ul {
+    background-color: #000000;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(61, 61, 61, 0.399);
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgba(215, 215, 215, 0.704);
+  }
+  .active {
+    background-color: #04AA6D;
+  }
+  .home {
+
+    background: url("utgfcacoxl6hwd2bj2ay.webp") no-repeat center center/cover;
+   background-position: 0px 0px;
+   
+  }
+  h1{text-align: center;
+  }
